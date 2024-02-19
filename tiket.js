@@ -12,7 +12,11 @@ if(umur >= 13){
         alert(`Tiket ${nama} Studio ${pilihan} Umur ${umur}`);
         }else if(pilihan == "C"){
         alert(`Tiket ${nama} Studio ${pilihan} Umur ${umur}`);
+        }else{
+            alert(`input yang anda masukan tidak sesuai studio \n tolong ulangi lagi`)
         }
+}else if(umur <= 0){
+    alert("Umur yang anda masukan tidak valid")
 }else{
-    alert("tidak boleh masuk")
+    alert("tidak boleh masuk studio")
 }
